@@ -3,17 +3,27 @@
   <h1 align="center">News Aggregator</h1>
 </div>
 
-A simple Python-based news aggregator that fetches the latest articles from multiple newspapers using their RSS feeds and appends them to a CSV file for easy storage and analysis.
+A Python script that takes a search query, performs a Google search, visits all websites in the search results, and extracts **email addresses** and **phone numbers** found on those pages.
+
   <br>
 
-## Features :
-- Fetch articles from one or multiple RSS feed URLs.
-- Extract key details like title, link, publication date, authors, tags, article content and image.
-- Store results in a CSV file.
-- Automatically appends new articles while avoiding duplicates.
-- Lightweight and easy to extend.
+## ⚙️ Features
 
+- 🔍 Accepts any search query
+- 🌐 Scrapes Google Search results
+- 🕸️ Crawls each result URL
+- ✉️ Extracts email addresses
+- 📞 Extracts phone numbers (basic regex-based)
+- 💾 Saves the extracted data to a file or displays it in the console
 
+## 🚀 How It Works
+
+1. You enter a search query (e.g., `graphic designers in New York`)
+2. The script uses Google Search to retrieve the top results
+3. It visits each link and scrapes the page content
+4. Regex is used to extract valid email addresses and phone numbers
+5. Outputs the results in an csv file
+   
 <!-- GETTING STARTED -->
 ## Installation
 
@@ -31,29 +41,6 @@ A simple Python-based news aggregator that fetches the latest articles from mult
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Add your RSS feed URLs to newspapers.json
-```
-[
-  {
-    "name": "New York Times",
-    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
-  },
-  {
-    "name": "France 24",
-    "url": "https://www.france24.com/en/rss"
-  },
-  {
-    "name": "NBC News",
-    "url": "https://www.nbcnews.com/feed"
-  }
-]
-
-```
-2. Run the script
-   ```sh
-   python mai.py
-   ```
-3. The script will fetch the latest articles and append them to articles.csv
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
