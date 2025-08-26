@@ -49,12 +49,12 @@ A simple Python-based news aggregator that fetches the latest articles from mult
 ]
 
 ```
-
+2. Run the script
+   ```sh
+   python mai.py
+   ```
+3. The script will fetch the latest articles and append them to articles.csv
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-## Demo
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/KXWTdC9wPD8/0.jpg)](http://www.youtube.com/watch?v=KXWTdC9wPD8 "Watch Demo")
 
