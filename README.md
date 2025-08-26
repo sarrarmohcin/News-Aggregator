@@ -19,7 +19,7 @@ A simple Python-based news aggregator that fetches the latest articles from mult
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sarrarmohcin/googleMapsScraper.git
+   git clone https://github.com/sarrarmohcin/News-Aggregator.git
    ```
 2. Install requirements
    ```sh
