@@ -1,0 +1,14 @@
+[
+  {
+    "name": "New York Times",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+  },
+  {
+    "name": "France 24",
+    "url": "https://www.france24.com/en/rss"
+  },
+  {
+    "name": "NBC News",
+    "url": "https://www.nbcnews.com/feed"
+  }
+]
